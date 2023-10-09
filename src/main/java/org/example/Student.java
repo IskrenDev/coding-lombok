@@ -1,12 +1,15 @@
 package org.example;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@Builder
+
 public class Student {
     private String id;
 
@@ -15,7 +18,5 @@ public class Student {
     private String address;
 
     private String grade;
-
-
 
 }
