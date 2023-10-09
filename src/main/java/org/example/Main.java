@@ -56,5 +56,11 @@ public class Main {
         System.out.println(student2.getName());
 
         System.out.println(student2.getGrade().equals("2"));
+
+
+        Student student3 = student1.withGrade("3");
+
+        System.out.println(student3);
+
     }
 }
