@@ -16,6 +16,6 @@ public class Student {
     private String address;
 
     @With
-    private String grade;
+    double grade;
 
 }

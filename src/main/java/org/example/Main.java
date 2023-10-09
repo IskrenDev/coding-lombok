@@ -11,7 +11,7 @@ public class Main {
                 .id("1")
                 .name("Iskren")
                 .address("Musterstraße 123")
-                .grade("2")
+                .grade(2)
                 .build();
 
         Student student2 = Student.builder()
@@ -19,7 +19,7 @@ public class Main {
                 .id("2")
                 .name("Peter")
                 .address("Musterweg 456")
-                .grade("1")
+                .grade(1)
                 .build();
 
         Teacher teacher1 = Teacher.builder()
@@ -55,12 +55,15 @@ public class Main {
 
         System.out.println(student2.getName());
 
-        System.out.println(student2.getGrade().equals("2"));
+        //System.out.println(student2.getGrade().equals("2"));
 
 
-        Student student3 = student1.withGrade("3");
+        //Student student3 = student1.withGrade("3");
 
-        System.out.println(student3);
+        //System.out.println(student3);
 
+        UniversityService universityService1 = new UniversityService();
+
+        System.out.println(universityService1.getAvarageGradePerCourse(course1));
     }
 }

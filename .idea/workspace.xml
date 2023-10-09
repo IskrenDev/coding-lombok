@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2409de27-8b15-48dd-8bf7-1d166c2540bc" name="Changes" comment="Steps 4, 5 and 6">
+    <list default="true" id="2409de27-8b15-48dd-8bf7-1d166c2540bc" name="Changes" comment="Lombok @With-Notation task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UniversityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
@@ -16,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696856062463</updated>
-      <workItem from="1696856063526" duration="3362000" />
+      <workItem from="1696856063526" duration="7394000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lombok dependency">
       <option name="closed" value="true" />
@@ -87,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696858981089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lombok @With-Notation task">
+      <option name="closed" value="true" />
+      <created>1696859826880</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696859826880</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +111,7 @@
     <MESSAGE value="Add Student class" />
     <MESSAGE value="Add Course and Teacher class" />
     <MESSAGE value="Steps 4, 5 and 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Steps 4, 5 and 6" />
+    <MESSAGE value="Lombok @With-Notation task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lombok @With-Notation task" />
   </component>
 </project>
